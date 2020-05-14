@@ -110,7 +110,7 @@
 }
 
 .blocco-tasto-arancio{
-  border: 1px red solid;
+  /* border: 1px red solid; */
 }
 .tastoarancio{
   /* float:left; */
@@ -128,7 +128,19 @@
 .tastoarancio2{
   height: 100px;
   width: 40%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+}
+.bottonearancio2{
+  height: 60px;
+  width: 180px;
+  margin-top: 20px;
+  border: 1px solid white ;
+  line-height: 60px;
+  border-radius: 6px;
+  color: white;
+  background-color: #fe775a;
+  text-align: center;
+  /* padding: 5px; */
 }
 
 .barralogomenu{
@@ -161,17 +173,23 @@ a{
   text-decoration: none;
   color: black;
 }
+
+
 .titolo{
   height: 100px;
-  width: 400px;
-  border: 2px solid black;
-  margin-bottom: 15px;
+  width: 450px;
+  /* border: 2px solid black; */
+  margin: 20px 0;
+  font-size: 20px;
+  /* padding-top: 30px; */
+
 }
 
 .bloccotest{
   height: 100px;
-  width: 400px;
-  border: 2px solid black;
+  width: 450px;
+  /* border: 2px solid black; */
+  padding-top: 5px;
 }
 
 .colonna100{
@@ -193,10 +211,15 @@ a{
 }
 
 #settorerosa{
-  height: auto;
+  height: 700px;
   width: 100%;
-  background-color: pink;
-}
+  background-image: url(../img/jumbotron.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  padding-top:30px;
+  }
+
 #settoregrigio{
   height: auto;
   width: 100%;
