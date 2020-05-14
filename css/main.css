@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-.header{
-  height: 500px;
-}
 
 .centratura{
   padding: 0 5%;
@@ -22,6 +19,9 @@
   height: 100px;
   background-color: grey;
   position: fixed;
+  z-index: 999;
+  top:0;
+  left:0;
 }
 
 .colonna50{
@@ -69,9 +69,16 @@
   width: 40%;
   border: 1px solid red;
 }
+
 .tastoarancio{
   float:left;
-  height: 100%;
+  height: 100px;
+  width: 40%;
+  border: 1px solid red;
+}
+
+.tastoarancio2{
+  height: 100px;
   width: 40%;
   border: 1px solid red;
 }
@@ -79,13 +86,41 @@
 .barralogomenu{
   width: 100%;
   height: 100px;
-  background-color: #ccc;
-  position: absolute;
-  top:100px;
+  background-color: red;
+  margin-top: 100px;
+
+}
+.bloccotest{
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+}
+
+.colonna100{
+  height: 200px;
+  width: 100%;
+  border: 2px solid black;
+}
+.trecolonne::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.colonna33{
+  float: left;
+  height: 200px;
+  width: 33%;
+  border: 2px solid black;
 }
 
 #settorerosa{
-  min-height: 300px;
+  height: auto;
   width: 100%;
   background-color: pink;
+}
+#settoregrigio{
+  height: auto;
+  width: 100%;
+  background-color: grey;
 }
