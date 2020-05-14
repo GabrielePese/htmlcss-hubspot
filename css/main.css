@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  height: 500px;
+}
+
+.centratura{
+  padding: 0 5%;
+}
+.centratura::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.barrafissa{
+  width: 100%;
+  height: 100px;
+  background-color: grey;
+  position: fixed;
+}
+
+.colonna50{
+  float: left;
+  width: 50%;
+  height: 100px;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+.colonna50::after{
+  content: "";
+  display:table;
+  clear: both;
+}
+
+.lingua{
+  float:left;
+  height: 100%;
+  width: 35%;
+  border: 1px solid red;
+}
+.barrettavert{
+  float:left;
+  height: 100%;
+  width: 30%;
+  border: 1px solid red;
+}
+.contact{
+  float:left;
+  height: 100%;
+  width: 35%;
+  border: 1px solid red;
+}
+
+.ricerca{
+  float:left;
+  height: 100%;
+  width: 20%;
+  border: 1px solid red;
+}
+.log{
+  float:left;
+  height: 100%;
+  width: 40%;
+  border: 1px solid red;
+}
+.tastoarancio{
+  float:left;
+  height: 100%;
+  width: 40%;
+  border: 1px solid red;
+}
+
+.barralogomenu{
+  width: 100%;
+  height: 100px;
+  background-color: #ccc;
+  position: absolute;
+  top:100px;
+}
+
+#settorerosa{
+  min-height: 300px;
+  width: 100%;
+  background-color: pink;
+}
