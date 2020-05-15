@@ -6,8 +6,9 @@
 
 
 .centratura{
-  padding: 0 5%;
+  padding: 0 7%;
 }
+
 .centratura::after{
   content: "";
   display: table;
@@ -17,7 +18,7 @@
 .barrafissa{
   width: 100%;
   height: 50px;
-  background-color: #e3e2e2;
+  background-color: #f0efef;
   position: fixed;
   z-index: 999;
   top:0;
@@ -109,9 +110,7 @@
   background-color: white;
 }
 
-.blocco-tasto-arancio{
-  /* border: 1px red solid; */
-}
+
 .tastoarancio{
   /* float:left; */
   height: 40px;
@@ -150,21 +149,19 @@
   margin-top: 50px;
 
 }
-img{
-  float: left;
-  margin: 10px auto;
-}
+
+
 
 nav{
   display: inline-block;
 }
 
-ul{
+.barralogomenu ul{
   display: inline-block;
   margin-left: 170px;
 }
 
-li{
+.barralogomenu li{
   display:inline-block;
   padding: 0 10px;
 }
@@ -179,13 +176,13 @@ a{
   height: 100px;
   width: 450px;
   /* border: 2px solid black; */
-  margin: 20px 0;
+  margin: 30px 0;
   font-size: 20px;
   /* padding-top: 30px; */
 
 }
 
-.bloccotest{
+.bloccotxt{
   height: 100px;
   width: 450px;
   /* border: 2px solid black; */
@@ -193,10 +190,94 @@ a{
 }
 
 .colonna100{
-  height: 200px;
+  height: 350px;
   width: 100%;
-  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: block;
 }
+
+.colonna100 img{
+  height: 150px;
+  width: auto;
+  margin-top: 30px;
+}
+
+.colonna100 h2{
+  margin-bottom: 20px;
+}
+
+.crm:after{
+  content: "";
+  display:table;
+  clear:both;
+}
+
+.crm{
+  background-color: white;
+  border: 2px solid #d1e2ef;
+  height: 340px;
+}
+
+.crmtxt{
+  float: left;
+  width: 70%;
+  min-height: 250px;
+}
+.crm img{
+  height: 100px;
+  width: auto;
+  margin-top: 60px;
+}
+
+.crm h3{
+  margin-top: 60px;
+}
+
+.crm p{
+  margin-top: 30px;
+}
+
+.colonnacrm{
+  float: left;
+  width: 30%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.colonnacrm2{
+  float: left;
+  width: 70%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.colonnacrm2 i{
+  color: #fe775a;
+}
+.colonnacrm2 ul{
+  margin-left: -10px;
+}
+
+.bottone-arancio{
+  padding: 15px 20px;
+  background-color: #fe775a;
+  color: white;
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+#settoregrigio .colonna100:last-of-type {
+  background-color: white;
+}
+.trecolonne{
+  margin-top: 50px;
+}
+
 .trecolonne::after{
   content: "";
   display: table;
@@ -205,9 +286,85 @@ a{
 
 .colonna33{
   float: left;
-  height: 200px;
-  width: 33%;
+  height: 605px;
+  width: 30%;
   border: 2px solid black;
+  margin-right: 60px;
+  text-align: center;
+}
+.colonna33dx{
+  float: right;
+  height: 605px;
+  width: 30%;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.txtcolonna{
+  padding: 0 25px;
+}
+
+
+.divisore{
+  margin: 40px 25px 30px 25px;
+  border-bottom: 1px solid black;
+}
+
+.popolar{
+  padding: 20px 0;
+  font-weight: bold;
+}
+
+
+.colonna33 img{
+  height: 100px;
+  width: auto;
+  margin: 20px 0;
+}
+
+.colonna33 h3{
+  margin: 20px 0;
+}
+
+.colonna33 li{
+  text-align: left;
+  padding-left: 35px;
+
+}
+.colonna33 ul{
+  margin-bottom: 50px;
+  list-style-type: none;
+}
+
+.colonna33 i{
+  color: #fe775a;
+  padding-right: 10px;
+}
+
+
+.colonna33dx img{
+  height: 100px;
+  width: auto;
+  margin: 20px 0;
+}
+
+.colonna33dx h3{
+  margin: 20px 0;
+}
+
+.colonna33dx li{
+  text-align: left;
+  padding-left: 35px;
+
+}
+.colonna33dx ul{
+  margin-bottom: 50px;
+  list-style-type: none;
+}
+
+.colonna33dx i{
+  color: #fe775a;
+  padding-right: 10px;
 }
 
 #settorerosa{
@@ -223,13 +380,14 @@ a{
 #settoregrigio{
   height: auto;
   width: 100%;
-  background-color: grey;
+  background-color: #edf4fa;
 }
 #settoreazzurro{
   height: auto;
   width: 100%;
   background-color: #00afb3;
 }
+
 #settoretipa ::after{
   content: "";
   display: table;
@@ -240,8 +398,12 @@ a{
   float: left;
   width: 50%;
   height: 200px;
+  margin-left: auto;
+  margin-right: auto;
   border: 2px solid black;
+  text-align: center;
 }
+
 
 .footmain::after{
   content: "";
