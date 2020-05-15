@@ -150,6 +150,11 @@
 
 }
 
+.barralogomenu img{
+  margin-right: 200px;
+  margin-top: 10px;
+}
+
 
 
 nav{
@@ -187,6 +192,14 @@ a{
   width: 450px;
   /* border: 2px solid black; */
   padding-top: 5px;
+}
+
+/* SETTORE GRIGIO */
+
+#settoregrigio{
+  height: auto;
+  width: 100%;
+  background-color: #edf4fa;
 }
 
 .colonna100{
@@ -271,9 +284,7 @@ a{
   font-size: 15px;
 }
 
-#settoregrigio .colonna100:last-of-type {
-  background-color: white;
-}
+
 .trecolonne{
   margin-top: 50px;
 }
@@ -367,6 +378,102 @@ a{
   padding-right: 10px;
 }
 
+/* SETTORE AZZURRO */
+
+#settoreazzurro{
+  height: auto;
+  width: 100%;
+  background-color: #00afb3;
+}
+
+.settore-azz-titolo{
+  padding-top: 20px;
+  color: white;
+}
+
+.txtpiccolo{
+  font-size: 11px;
+  color:white;
+}
+.txtpiccolo p{
+  padding-bottom: 7px;
+}
+
+.riga1-schema{
+margin-left: 200px;
+width: auto;
+}
+
+.riga1-schema::after{
+  content:"";
+  display:table;
+  clear:both;
+}
+
+.alto{
+  float: left;
+  height: 120px;
+  width: 200px;
+  border-right: 1px solid white;
+  padding-top: 10px;
+}
+
+.altox{
+  float: left;
+  height: 120px;
+  width: 200px;
+}
+.riga1-schema i{
+  margin-bottom: 5px;
+}
+.piu{
+  display: inline-block;
+  color:white;
+
+}
+.riga1-schema i{
+  color:white;
+  display: block;
+
+}
+
+.riga1-schema h4{
+  color:white;
+  font-size: 30px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.alto .txtpiccolo{
+  margin-bottom: 20px;
+}
+.riga2-schema{
+  margin-left: 200px;
+  width: auto;
+}
+.riga2-schema::after{
+  content:"";
+  display:table;
+  clear:both;
+}
+
+.basso{
+  float: left;
+  height: 120px;
+  width: 200px;
+  border-right: 1px solid white;
+  border-top: 1px solid white;
+}
+
+.bassox{
+  border-top: 1px solid white;
+  float: left;
+  height: 120px;
+  width: 200px;
+}
+
+
+
+
 #settorerosa{
   height: 700px;
   width: 100%;
@@ -377,16 +484,8 @@ a{
   padding-top:30px;
   }
 
-#settoregrigio{
-  height: auto;
-  width: 100%;
-  background-color: #edf4fa;
 }
-#settoreazzurro{
-  height: auto;
-  width: 100%;
-  background-color: #00afb3;
-}
+
 
 #settoretipa ::after{
   content: "";
