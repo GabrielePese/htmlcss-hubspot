@@ -202,6 +202,8 @@ a{
   background-color: #edf4fa;
 }
 
+/* BLOCCO CUBO */
+
 .colonna100{
   height: 350px;
   width: 100%;
@@ -211,11 +213,13 @@ a{
   display: block;
 }
 
-.colonna100 img{
+#cubo{
   height: 150px;
   width: auto;
   margin-top: 30px;
 }
+
+/* BLOCCO CRM */
 
 .colonna100 h2{
   margin-bottom: 20px;
@@ -228,7 +232,7 @@ a{
 }
 
 .crm{
-  background-color: white;
+  background-color: #f5f5f5;
   border: 2px solid #d1e2ef;
   height: 340px;
 }
@@ -259,6 +263,7 @@ a{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+
 }
 
 .colonnacrm2{
@@ -284,9 +289,11 @@ a{
   font-size: 15px;
 }
 
+/* BLOCCO 3 COLONNE */
 
 .trecolonne{
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .trecolonne::after{
@@ -299,16 +306,18 @@ a{
   float: left;
   height: 605px;
   width: 30%;
-  border: 2px solid black;
+  border: 2px solid #d1e2ef;
   margin-right: 60px;
   text-align: center;
+  background-color: #f5f5f5;
 }
 .colonna33dx{
   float: right;
   height: 605px;
   width: 30%;
-  border: 2px solid black;
+  border: 2px solid #d1e2ef;
   text-align: center;
+  background-color: #f5f5f5;
 }
 
 .txtcolonna{
@@ -386,15 +395,37 @@ a{
   background-color: #00afb3;
 }
 
+.colonna100b{
+  height: 190px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: block;
+
+}
+
+.colonna100c{
+  height: 300px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: block;
+  margin-bottom: 15px;
+}
+
 .settore-azz-titolo{
-  padding-top: 20px;
+  padding-top: 35px;
   color: white;
 }
 
-.txtpiccolo{
+.colonna100b .txtpiccolo{
+  margin-top: 15px;
   font-size: 11px;
   color:white;
 }
+
 .txtpiccolo p{
   padding-bottom: 7px;
 }
@@ -422,19 +453,20 @@ width: auto;
   float: left;
   height: 120px;
   width: 200px;
+  padding-top: 10px
 }
-.riga1-schema i{
-  margin-bottom: 5px;
-}
+
+
 .piu{
   display: inline-block;
   color:white;
-
 }
+
+/* PRIMA RIGA */
+
 .riga1-schema i{
   color:white;
   display: block;
-
 }
 
 .riga1-schema h4{
@@ -442,10 +474,26 @@ width: auto;
   font-size: 30px;
   display: inline-block;
   margin-bottom: 15px;
+  margin-top: 10px;
 }
-.alto .txtpiccolo{
-  margin-bottom: 20px;
+
+
+.riga1-schema .minilogo{
+  height: 16px;
+  width: auto;
+  display: block;
+  filter: brightness(0) invert(1);
+  padding-left: 70px;
 }
+
+.colonna100c .txtpiccolo{
+  font-size: 11px;
+  color:white;
+}
+
+/* SECONDA RIGA */
+
+
 .riga2-schema{
   margin-left: 200px;
   width: auto;
@@ -456,12 +504,36 @@ width: auto;
   clear:both;
 }
 
+.riga2-schema i{
+  color:white;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.riga2-schema h4{
+  color:white;
+  font-size: 30px;
+  display: inline-block;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+
+.riga2-schema .minilogo{
+  height: 15px;
+  width: auto;
+  display: block;
+  filter: brightness(0) invert(1);
+  padding-left: 70px;
+}
+
 .basso{
   float: left;
   height: 120px;
   width: 200px;
   border-right: 1px solid white;
   border-top: 1px solid white;
+  padding-top: 15px
 }
 
 .bassox{
@@ -469,6 +541,7 @@ width: auto;
   float: left;
   height: 120px;
   width: 200px;
+  padding-top: 15px
 }
 
 
