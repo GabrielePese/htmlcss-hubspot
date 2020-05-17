@@ -84,6 +84,8 @@
   height: 100%;
   width: 5%;
   margin-left: 50px;
+  color: #03a7bf;
+  padding-left: 15px;
 }
 
 .log{
@@ -96,17 +98,25 @@
 
 .tastolog{
   position: relative;
-  height: 40px;
+  height: 32px;
   width: 60px;
   margin-left: 10px;
   border: 1px solid #fe775a;
-  top: 5px;
-  line-height: 40px;
+  top: 10px;
+  line-height: 32px;
   border-radius: 3px;
   color: #fe775a;
   background-color: white;
 }
 
+.riga5 .bottone-arancio{
+  padding: 7px 10px;
+  background-color: #fe775a;
+  color: white;
+  border-radius: 3px;
+  font-size: 15px;
+  margin-left: 30px;
+}
 
 .tastoarancio{
   /* float:left; */
@@ -289,12 +299,20 @@ a{
   margin-left: -10px;
 }
 
+#but{
+  margin: 30px 0 50px 0;
+}
+
 .bottone-arancio{
   padding: 15px 20px;
   background-color: #fe775a;
   color: white;
   border-radius: 3px;
   font-size: 15px;
+}
+
+.bottone-arancio:hover{
+  opacity: 0.3;
 }
 
 /* BLOCCO 3 COLONNE */
