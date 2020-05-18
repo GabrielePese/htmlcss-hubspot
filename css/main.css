@@ -15,9 +15,13 @@
   clear: both;
 }
 
-.barrafissa{
+
+/* BARRA FISSA */
+
+.barrafix{
   width: 100%;
   height: 50px;
+  line-height: 50px;
   background-color: #f0efef;
   position: fixed;
   z-index: 999;
@@ -25,6 +29,66 @@
   left:0;
   border-bottom: 1px solid black;
 }
+
+.barrafix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.fix50{
+  float:left;
+  width: 50%
+}
+
+.fix50 li{
+  display: inline-block;
+}
+
+
+select{
+  border: none;
+  background-color: transparent;
+}
+
+#asta{
+  padding: 6px;
+  border-left: 1px solid black;
+  margin-left: 10px;
+}
+
+.barrafix .fix50:last-of-type {
+  float:right;
+  text-align: right;
+}
+
+#lente{
+  color: #03a7bf;
+}
+
+#bot-bianco{
+  padding: 5px 8px;
+  border: 1px solid #fe775a;
+  color:#fe775a;
+  background-color: transparent;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.fix50 .bottone-arancio{
+  padding: 7px 9px;
+  font-size: 13px;
+}
+
+
+#li-1{
+  padding-right: 15px;
+}
+
+#li-2{
+  padding-right: 15px;
+}
+
+/* BARRALOGOMENU */
 
 .riga5{
   float: left;
@@ -48,67 +112,6 @@
   clear: both;
 }
 
-.lingua{
-  float:left;
-  height: 100%;
-  width: 35%;
-  margin-right: 10px;
-}
-
-.barrettavert{
-  float:left;
-  height: 20px;
-  width: 5%;
-  border-left: solid 1px black;
-  margin-top: 15px;
-
-}
-
-.contact{
-  float:left;
-  height: 100%;
-  width: 25%;
-}
-
-
-.blocco-tasto-arancio{
-  float:left;
-  height: 100%;
-  width: 15%;
-
-}
-
-
-.ricerca{
-  float:left;
-  height: 100%;
-  width: 5%;
-  margin-left: 50px;
-  color: #03a7bf;
-  padding-left: 15px;
-}
-
-.log{
-  float:left;
-  height: 100%;
-  width: 15%;
-  margin-left: 25px;
-
-}
-
-.tastolog{
-  position: relative;
-  height: 32px;
-  width: 60px;
-  margin-left: 10px;
-  border: 1px solid #fe775a;
-  top: 10px;
-  line-height: 32px;
-  border-radius: 3px;
-  color: #fe775a;
-  background-color: white;
-}
-
 .riga5 .bottone-arancio{
   padding: 7px 10px;
   background-color: #fe775a;
@@ -118,36 +121,6 @@
   margin-left: 30px;
 }
 
-.tastoarancio{
-  /* float:left; */
-  height: 40px;
-  width: 120px;
-  margin-left: 40px;
-  border: 1px solid white ;
-  line-height: 40px;
-  border-radius: 6px;
-  color: white;
-  background-color: #fe775a;
-  margin-top: 5px;
-}
-
-.tastoarancio2{
-  height: 100px;
-  width: 40%;
-
-}
-.bottonearancio2{
-  height: 60px;
-  width: 180px;
-  margin-top: 20px;
-  border: 1px solid white ;
-  line-height: 60px;
-  border-radius: 6px;
-  color: white;
-  background-color: #fe775a;
-  text-align: center;
-  /* padding: 5px; */
-}
 
 .barralogomenu{
   width: 100%;
@@ -161,7 +134,6 @@
   margin-right: 200px;
   margin-top: 10px;
 }
-
 
 
 nav{
@@ -183,7 +155,9 @@ a{
   color: black;
 }
 
+
 /* SETTORE ROSA JUMBO */
+
 
 #settorerosa{
   height: 700px;
@@ -198,21 +172,19 @@ a{
 .titolo{
   height: 100px;
   width: 450px;
-  /* border: 2px solid black; */
   margin: 30px 0;
   font-size: 20px;
-  /* padding-top: 30px; */
-
 }
 
 .bloccotxt{
   height: 100px;
   width: 450px;
-  /* border: 2px solid black; */
   padding-top: 5px;
 }
 
+
 /* SETTORE GRIGIO */
+
 
 #settoregrigio{
   height: auto;
@@ -418,7 +390,8 @@ a{
 #settoreazzurro{
   height: auto;
   width: 100%;
-  background-color: #00afb3;
+  background-color: #00a7ba;
+  background-image: linear-gradient(to right, #00a7ba , #00bba6);
 }
 
 .colonna100b{
@@ -457,7 +430,6 @@ a{
 }
 
 .riga1-schema{
-/* margin-left: 100px; */
 width: auto;
 }
 
@@ -519,11 +491,6 @@ width: auto;
 
 /* SECONDA RIGA */
 
-
-.riga2-schema{
-  /* margin-left: 100px; */
-  width: auto;
-}
 
 .riga2-schema::after{
   content:"";
@@ -691,10 +658,7 @@ footer{
 .footmain .colonna25 h4{
   margin-bottom: 25px;
 }
-.footmain .colonna25 ul{
-  /* display: inline-block; */
 
-}
 
 .footmain .colonna25 li{
 list-style-type:none;
